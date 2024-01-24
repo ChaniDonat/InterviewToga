@@ -12,5 +12,5 @@
       return biggerNeighbors(nums, mid, right);
     }
 }
-int[] nums = { 1, 2, 3, 6, 2, 9 };
+int[] nums = { 1, 2, 3, 6, 2, 10 };
 Console.WriteLine(biggerNeighbors(nums,0,nums.Length-1));
