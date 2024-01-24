@@ -26,7 +26,7 @@ jobs:
         docker buildx build --platform linux/amd64,linux/arm64 -t ghcr.io/chanidonat/interviewtoga:latest .
 
     - name: Push Git Tag
-      run:
+      run: |
         git config --global user.email "chani72901@gmail.com"
         git config --global user.name "ChaniDonat"
         git tag -a -m "Auto-generated tag" ${{ github.sha }}
