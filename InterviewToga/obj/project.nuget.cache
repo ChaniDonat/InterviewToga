@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UBP0amDSsd8/OsoCCSLncQrB7a6O2wxl0ncSuQl4bM+Yi+d2X1YO3qGXepHy1BRr9kPUovpX9KOIycC9tXEvWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\The user\\Documents\\חני\\הכנה לראיון עבודה\\Toga\\InterviewToga\\InterviewToga\\InterviewToga.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\The user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\The user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\The user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\The user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
