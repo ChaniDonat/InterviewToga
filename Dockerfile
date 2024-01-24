@@ -1,5 +1,5 @@
 # Base image
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build-env
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 
 # Set the working directory in the container
 WORKDIR /app
@@ -14,7 +14,7 @@ RUN dotnet restore
 RUN dotnet publish -c Release -o out
 
 # Runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:5.0
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 
 # Set the working directory in the container
 WORKDIR /app
