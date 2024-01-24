@@ -15,7 +15,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ github.actor }}
-          password: ${{ secrets.my-github-token }}
+          password: ${{ secrets.MY_TOKEN }}
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v3
